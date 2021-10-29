@@ -27,7 +27,7 @@ function main()
 
 	local content_to_insert = [[
 		<LuaComponent
-			execute_every_n_frame="-1"
+			execute_every_n_frame="1"
 			script_source_file="]] .. to_porridge_script .. [["
 		></LuaComponent>
 	]]
